@@ -1,0 +1,23 @@
+{
+  "name": "projectposedionelectron",
+  "version": "1.0.0",
+  "description": "Posedion desktop app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloud-Informatic/ProjectPosedion-Electron.git"
+  },
+  "author": "yagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cloud-Informatic/ProjectPosedion-Electron/issues"
+  },
+  "homepage": "https://github.com/Cloud-Informatic/ProjectPosedion-Electron#readme",
+  "dependencies": {
+    "electron": "^16.0.5"
+  }
+}

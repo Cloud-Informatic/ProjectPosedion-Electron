@@ -175,6 +175,20 @@ button:hover::after {
      movingBackgroundImage();
   });
 </script>
+<script>
+  const electron = require('electron');
+  const {ipcRenderer} = electron;
+
+  let button1 = document.getElementById("button1");
+  let button2 = document.getElementById("button2");
+
+  button1.addEventListener('click',()=>{
+    ipcRenderer.send("Tutucu")
+  })
+  button2.addEventListener('click',()=>{
+    ipcRenderer.send("Saklayıcı")
+  })
+</script>
 
 
 <script type="text/javascript" src="./main.70a66962.js"></script></body>

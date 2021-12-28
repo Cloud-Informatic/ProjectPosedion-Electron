@@ -1,0 +1,35 @@
+#image {
+  width: 15%;
+  height: 15%;
+}
+#mainContainerLeft {
+  position: absolute;
+}
+#conta {
+  position: relative;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  margin-top: 33%;
+  position: relative;
+}
+#cloudIMG {
+  width: 40%;
+  height: 40%;
+}
+#text {
+  font-size: 2vw;
+  font-weight: bold;
+}
+#right {
+  position: absolute;
+  top: 15%;
+  left: 87%;
+}
+
+#imageRight {
+  width: 15%;
+  height: 15%;
+}
